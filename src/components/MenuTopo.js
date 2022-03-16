@@ -1,7 +1,11 @@
-function MenuTopo() {
+function MenuTopo({logado=false}) {
     return (
         <div>
-            <button>Login</button>
+            <button style={{
+                display: logado? "none": "flex"
+            }} >
+                    Login
+            </button>
             <button>Ajuda</button>
         </div>
     )
