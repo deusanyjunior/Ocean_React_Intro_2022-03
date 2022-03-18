@@ -18,11 +18,12 @@ class Dia extends Component {
             }
         )
         console.log(this.props.data + ": " + this.state.qtdCliques);
+        fetch
     }
 
     render () {
         return (
-            <button onClick={this.aoClicar}>
+            <button className="dia" onClick={this.aoClicar}>
                 { 
                     this.props.data > 0 && this.props.data < 32 ? 
                     this.props.data : '-'}
