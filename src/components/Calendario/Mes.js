@@ -5,11 +5,11 @@ function Mes({mes, ano}) {
         <>
         <div>{mes} / {ano}</div>
         <div>Dom Seg Ter Qua Qui Sex Sab</div>
-        <Semana />
-        <Semana />
-        <Semana />
-        <Semana />
-        <Semana />
+        <Semana dataInicial={-1} />
+        <Semana dataInicial={6} />
+        <Semana dataInicial={13} />
+        <Semana dataInicial={20} />
+        <Semana dataInicial={27} />
         </>
     )
 }
