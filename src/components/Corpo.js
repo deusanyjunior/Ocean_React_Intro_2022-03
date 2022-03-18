@@ -1,8 +1,9 @@
-function Corpo( {nome, sobrenome} ) {
+import Calendario from "./Calendario/Calendario";
+
+function Corpo() {
     return (
         <div>
-             Nome científico do autor: {sobrenome}; {nome}.
-
+            <Calendario />
         </div>
     )
 }

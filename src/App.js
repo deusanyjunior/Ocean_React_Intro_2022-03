@@ -6,8 +6,7 @@ function App() {
     return (
         <>
             <MenuTopo />
-            <Corpo nome={"Antonio"} 
-                sobrenome={"de Carvalho"}/>
+            <Corpo />
             <Rodape autor='Antonio' />
         </>
     )
